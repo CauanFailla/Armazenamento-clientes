@@ -168,3 +168,7 @@ table {
 .btn-voltar:hover {
     background-color: rgb(32, 32, 32);
 }
+
+td {
+    border: 1px solid black;
+}
