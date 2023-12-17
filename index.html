@@ -14,10 +14,32 @@
         </div>
     </header>
     <main>
-        <button class="btn-historico">Histórico <span class="contagem">0</span></button>
-        <button class="btn-concluidos">Concluídos <span class="contagem">0</span></button>
-        <button class="btn-pendentes">Pendentes <span class="contagem">0</span></button>
-        <dialog class="sec-formularioAdd" open=""></dialog>
+        <button class="btn-prin btn-historico">Histórico <span class="contagem">0</span></button>
+        <button class="btn-prin btn-concluidos">Concluídos <span class="contagem">0</span></button>
+        <button class="btn-prin btn-pendentes">Pendentes <span class="contagem">0</span></button>
+
+        <dialog class="sec-formularioAdd">
+            <div class="formulario">
+                <div>
+                    <label for="inome">Nome</label> <br>
+                    <input type="text" name="Nome" id="inome" placeholder="Nome do cliente">
+                </div>
+                <div>
+                    <label for="ipedido">Pedido</label> <br>
+                    <input type="text" name="pedido" id="ipedido" placeholder="Tipo do pedido">
+                </div>
+                <div>
+                    <label for="iquantidade">Quantidade</label> <br>
+                    <input type="text" name="quantidade" id="iquantidade" placeholder="Ex: 500g ou 1kg">
+                </div>
+                <div>
+                    <label for="idata">Data</label> <br>
+                    <input type="date" name="" id="">
+                </div>
+                <button class="btn-addForm">Adicionar</button> <br>
+                <button class="btn-cancelarForm">Cancelar</button>
+            </div>
+        </dialog>
     </main>
     <script src="scripts/script.js"></script>
 </body>
