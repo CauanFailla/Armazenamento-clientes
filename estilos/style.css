@@ -38,7 +38,7 @@ header span {
     font-size: 2.1em !important;
 }
 
-main {
+.sec-btns {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -103,4 +103,69 @@ main .btn-prin {
     background-color: rgb(97, 97, 97);
     color: white;
     border: 1px solid rgb(133, 133, 133);
+}
+
+.sec-historico {
+    display: none;
+    padding-top: 15px;
+}
+
+.sec-historico h1 {
+    font-size: 1em;
+}
+
+.sec-historico .div-mes {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    padding: 2px 0px;
+    border-bottom: 1px solid black;
+}
+
+
+
+.div-mes table {
+    display: flex;
+    justify-content: center;
+}
+
+.div-mes td {
+    padding: 4px 5px;
+    font-size: 0.9em;
+}
+
+.div-mes div {
+    display: none;
+}
+
+.btn-abrirCaixaHistorico {
+    font-size: 2em !important;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 35px;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    width: 50px;
+    height: 50px;
+    user-select: none;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+
+.btn-voltar:hover {
+    background-color: rgb(32, 32, 32);
 }
