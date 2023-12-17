@@ -126,11 +126,10 @@ main .btn-prin {
 }
 
 
-
-.div-mes table {
-    display: flex;
-    justify-content: center;
+table {
+    display: block !important;
 }
+
 
 .div-mes td {
     padding: 4px 5px;
